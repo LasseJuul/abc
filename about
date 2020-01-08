@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="current" href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>What about me?</h1>
+            <p>
+                Well, my name is Lasse Wæverstrøm Juul. I'm 23 years of age and currently living in Copenhagen, Denmark where i've lived for just over 2 years. I study Multimedia Design (MMD) at KEA and currently in my first year.
+            </p>
+            <p>
+                Outside school i enjoy the basic stuff of a young Dane, sitting behind my computer and going out for beers. Even better if the beers are located on a slope in the Alpes as i enjoy travelling whenever i can and experiencing adrenaline pumping action.
+            </p>
+        </section>
+    </main>
+    <aside>
+        <img class="img" src="../img/lasse2.jpg">
+    </aside>
+</body>
+
+</html>
