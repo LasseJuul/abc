@@ -1,0 +1,184 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+
+li ul {
+    font-size: 15px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+ul {}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+
+/*CLASSES*/
+
+.hs {
+    padding-left: 50px;
+}
+
+.current {
+    border-bottom: black solid 5px;
+}
+
+.current2 {
+    border-bottom: black solid 1px;
+}
+
+.img {
+    width: 37vw;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+
+.imgp {
+    height: 25vh;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav active {
+    border-bottom: 5px solid black;
+}
+
+.linkbtn {
+    position: absolute;
+    padding-left: 30px;
+    bottom: 50px;
+}
+
+
+
+/*Links*/
+/*nav*/
+li {
+    font-size: 36px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+/*normal unvisited link*/
+nav ul a:link {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+/*link user has visited*/
+nav ul a:visited {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+/*moment its clicked*/
+nav ul a:active {
+    list-style-type: none;
+    color: black;
+}
+
+/*a link when the user mouses over it*/
+nav ul a:hover {
+    list-style: none;
+    border-bottom: grey solid 5px;
+    color: black;
+}
+
+li ul a:hover {
+    border-bottom: grey solid 2px;
+    color: black;
+}
+
+p a:hover {
+    color: red;
+}
+
+
+/*Section*/
+/*normal unvisited link*/
+section a:link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*link user has visited*/
+section a:visited {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+/*moment its clicked*/
+section a:active {
+    list-style-type: none;
+    color: black;
+}
+
+/*a link when the user mouses over it*/
+section a:hover {
+    list-style: none;
+    border-bottom: grey solid 5px;
+    color: black;
+}
+
+
+/*Responsive desktop*/
+
+@media only screen and (min-width: 1039px) {
+    body {
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-columns: 0.2fr 1fr 0.5fr;
+        grid-template-areas:
+            "header main aside"
+            "header main aside"
+    }
+
+}
+
+/*@media only screen and (min-width: 700px) {
+    body {
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-columns: 0.2fr 1fr 0.5fr;
+        grid-template-areas:
+            "header main aside"
+            "header main aside"
+    }
+}
+
+@media only screen and (max-width: 1039px) {
+    .imgp {
+        width: 0vh;
+        height 0vh;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}*/
